@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+}
+.conteudo{
+    height: 420px;
+    width: 1fr;
+    padding-left: 155px;
+    padding-right: 0%;
+    margin-top: 100px;
+}
+tr{
+    border:1px solid black;
+}
+td{
+    border:1px solid black;
+    height: 30px;
+    width: 600px;
+    padding-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font: rgb(97, 48, 48);
+    background-color: rgb(231, 191, 196);
+}
+
+button{
+    background-color: antiquewhite;
+    height: 30px;
+    width: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font: rgb(97, 48, 48);
+    border-radius: 20px;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font: rgb(97, 48, 48);
+}
