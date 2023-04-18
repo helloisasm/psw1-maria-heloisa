@@ -1,0 +1,41 @@
+*{
+    margin:0%;
+}
+.titulo{
+    height: 150px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.conteudo{
+    height: 355px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+}
+.coluna1{
+    height:355px;
+    width: 34%;
+    background-color: blue;
+}
+.coluna2{
+    height:355px;
+    width: 34%;
+    background-color: rgb(139, 92, 92);
+}
+.coluna3{
+    height:355px;
+    width: 34%;
+    background-color: yellowgreen;
+}
+.rodape{
+    height: 150px;
+    width: 100%;
+    background-color: brown;
+}
+@media (max-width: 600px) {
+    .row{
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
